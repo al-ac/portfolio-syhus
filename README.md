@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Portfolio Project | Syhus Application
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC)
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-000000)
 
-First, run the development server:
+> Este projeto foi desenvolvido como demonstração técnica de competências para a vaga de **Analista de Tecnologia** na **Syhus Contabilidade**.
+
+## 🌐 Acesso Online
+
+O projeto está rodando em produção através da Vercel com CI/CD ativo:
+
+👉 **[Clique aqui para acessar a aplicação](https://portfolio-syhus.vercel.app)**
+
+*(Se o link acima não funcionar, verifique a URL correta no seu dashboard da Vercel e atualize aqui)*
+
+---
+
+## 🎯 Objetivo do Projeto
+
+Demonstrar domínio prático sobre o fluxo moderno de desenvolvimento e infraestrutura web, cobrindo requisitos essenciais e diferenciais da vaga:
+
+1.  **CI/CD Pipeline:** Integração contínua entre **GitHub** e **Vercel**. Qualquer commit na branch `main` dispara um novo deploy automático.
+2.  **Next.js & React:** Utilização do framework React mais moderno (App Router), conforme mencionado como diferencial ("Next framework").
+3.  **Infraestrutura como Código:** Configuração de ambiente limpo e tipado com **TypeScript**.
+4.  **Estilização:** Uso de **Tailwind CSS** para interfaces responsivas e limpas.
+
+## 🛠️ Tecnologias Utilizadas
+
+*   **Frontend:** Next.js 14, React, TypeScript.
+*   **Estilização:** Tailwind CSS.
+*   **Versionamento:** Git & GitHub.
+*   **Infraestrutura/Deploy:** Vercel Platform.
+
+## 💻 Como rodar localmente
+
+Se desejar clonar e executar este projeto em sua máquina local:
 
 ```bash
+# 1. Clone o repositório
+git clone git@github.com:al-ac/portifolio-syhus.git
+
+# 2. Entre na pasta do projeto
+cd portifolio-syhus
+
+# 3. Instale as dependências
+npm install
+
+# 4. Rode o servidor de desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra http://localhost:3000 no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 👤 Autor
 
-## Learn More
+Alfredo Alves da Cunha
+Analista de Tecnologia | Automação (RPA) & Infraestrutura
 
-To learn more about Next.js, take a look at the following resources:
+- [LinkedIn](https://linkedin.com/alfredoalvescunha)
+- [Email](mailto:al.alves.dc@gmail.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Projeto desenvolvido em Jan/2026.
