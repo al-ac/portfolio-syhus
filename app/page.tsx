@@ -16,7 +16,7 @@ export default function Home() {
 
       <div className="mt-8 flex gap-4">
         <a href="https://linkedin.com/in/alfredoalvescunha" className="bg-blue-600 px-4 py-2 rounded hover:bg-blue-700 transition">LinkedIn</a>
-        <a href="https://github.com/al-ac" className="bg-gray-700 px-4 py-2 rounded hover:bg-gray-600 transition">GitHub</a>
+        <a href="https://github.com/al-ac" className="bg-gray-700 px-4 py-2 rounded hover:bg-gray-600 transition"> GitHub</a>
       </div>
     </main>
   );
